@@ -23,14 +23,14 @@ public class cadenaMasCorta
 //	Función que calcula cadena mas corta
 	private static String cadenaCorta(String[] tabla)
 	{
-		String larga = tabla[0];
+		String corta = tabla[0];
 		for (int i = 0; i < tabla.length; i++)
 		{
-			if(tabla[i].length() < larga.length()) {
-				larga = tabla[i];
+			if(tabla[i].length() < corta.length()) {
+				corta = tabla[i];
 			}
 		}
-		return larga;
+		return corta;
 	}
 
 }
