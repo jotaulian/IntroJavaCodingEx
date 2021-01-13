@@ -18,7 +18,11 @@ public class mitad
 	}
 
 //	Funcion que calcula la mitad de un numero
-	private static void calcularMitad(int numero)
+	/**
+	 * Esta función divide un número a la mitad
+	 * @param numero Numero a dividir
+	 */
+	public static void calcularMitad(int numero)
 	{
 		double mitad;
 		mitad = (double) numero / (double) 2;
